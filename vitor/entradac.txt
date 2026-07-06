@@ -5,7 +5,7 @@
 1000 0001 0 01 00101  # Posição 0: LOAD R1 da RAM[5] (Pega o número 5)
 1000 0001 0 10 00110  # Posição 1: LOAD R2 da RAM[6] (Pega o número 3)
 1010 0001 00 01 01 10  # Posição 2: ADD R1 = R1 + R2  (Soma 5 + 3)
-1000 0010 0 01 00111  # Posição 3: STORE salva R1 na RAM[7]
+1000 0010 0 01 00111  # Posição 3: STORE salva R0 na RAM[7]
 1111111111111111  # Posição 4: HALT (Desliga o processador)
 
 # --- ÁREA DE DADOS ---
