@@ -1,5 +1,4 @@
-import os
-
+import os # Importa a biblioteca para manipulação de arquivos
 # Constantes para os nomes dos arquivos
 B_R = "banco_registradores.txt"
 EN = "entrada.txt"
